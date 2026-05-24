@@ -8,16 +8,486 @@
     <title>PatchMyPdf.com - Secure Browser PDF Editor</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Fira+Code:wght@300..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/assets/index-DgW2mk5x.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-S-ySWqyJ.js">
-    <link rel="modulepreload" crossorigin href="/assets/vendor-pdf-NFarX_0K.js">
-    <link rel="modulepreload" crossorigin href="/assets/vendor-GaEKTLvb.js">
-    <link rel="modulepreload" crossorigin href="/assets/vendor-mui-BELxoBvO.js">
-    <link rel="modulepreload" crossorigin href="/assets/vendor-react-Dx8OYuvp.js">
-    <link rel="stylesheet" crossorigin href="/assets/index-Lr821AAw.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/main-DXMFSGQZ.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-Cf3xff8G.js">
+    <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-CpWojdLp.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-pdf-AKtx4L3C.js">
+    <link rel="stylesheet" crossorigin href="/assets/main-BPSK6XU2.css">
   </head>
   <body>
-    <div id="root"></div>
+    <!-- Header -->
+    <header>
+      <div class="container nav-container">
+        <a href="./index.html" class="logo-wrap">
+          <div class="logo-box">
+            <!-- Lucide FileText icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+          </div>
+          <span class="logo-text">Patch<span class="logo-highlight">My</span>PDF.com</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <!-- Left Column -->
+          <div class="hero-content">
+            <h1 class="hero-title">Secure PDF Editing.<br /><span>Right in your Browser.</span></h1>
+            <p class="hero-desc">
+              Edit and sign PDFs instantly. Your documents never leave your device, ensuring 100% privacy and lightning speed.
+            </p>
+            
+            <div>
+              <button id="get-started-btn" class="btn-primary">
+                <!-- Lucide Upload icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/></svg>
+                Get Started — It's Free
+              </button>
+            </div>
+
+            <!-- Badges -->
+            <div class="badges-grid">
+              <div class="badge-item">
+                <div class="badge-icon">
+                  <!-- Lucide Monitor icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg>
+                </div>
+                <span class="badge-label">100% BROWSER</span>
+              </div>
+              <div class="badge-item">
+                <div class="badge-icon">
+                  <!-- Lucide Shield icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 9.7a1 1 0 0 1-.68 0C7.5 20.5 4 18 4 13V6a1 1 0 0 1 .76-.97l8.24-2a1 1 0 0 1 .48 0l8.24 2A1 1 0 0 1 20 6z"/></svg>
+                </div>
+                <span class="badge-label">PRIVACY FIRST</span>
+              </div>
+              <div class="badge-item">
+                <div class="badge-icon">
+                  <!-- Lucide UserX icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="17" x2="22" y1="8" y2="13"/><line x1="22" x2="17" y1="8" y2="13"/></svg>
+                </div>
+                <span class="badge-label">NO SIGN-UP</span>
+              </div>
+              <div class="badge-item">
+                <div class="badge-icon">
+                  <!-- Lucide Infinity icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12c-2-2.67-4-4-6-4a4 4 0 1 0 0 8c2 0 4-1.33 6-4Zm0 0c2 2.67 4 4 6 4a4 4 0 1 0 0-8c-2 0-4 1.33-6 4Z"/></svg>
+                </div>
+                <span class="badge-label">UNLIMITED EDITING</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column (Drop Zone Container) -->
+          <div>
+            <div id="drop-zone" class="drop-paper" tabindex="0" aria-label="Upload PDF file" role="button">
+              <input id="pdf-upload-input" type="file" accept="application/pdf" style="display: none;" aria-label="Upload PDF file" />
+              
+              <!-- Global validation error -->
+              <div id="global-error" class="global-error-box">
+                <!-- Lucide AlertCircle icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+                <span id="global-error-text">Please select a valid PDF file.</span>
+              </div>
+
+              <!-- Upload View (Default) -->
+              <div id="upload-view" class="upload-view-content">
+                <div class="upload-icon-box">
+                  <!-- Lucide Upload icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/></svg>
+                </div>
+                <h2 class="upload-title">Select | Drop PDF</h2>
+                <div class="upload-subtitle">
+                  <!-- Lucide Shield icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 9.7a1 1 0 0 1-.68 0C7.5 20.5 4 18 4 13V6a1 1 0 0 1 .76-.97l8.24-2a1 1 0 0 1 .48 0l8.24 2A1 1 0 0 1 20 6z"/></svg>
+                  Local processing only
+                </div>
+                <div class="file-cards-preview">
+                  <div class="preview-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/></svg>
+                  </div>
+                  <div class="preview-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/></svg>
+                  </div>
+                  <div class="preview-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/></svg>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Staging View (Hidden initially) -->
+              <div id="staging-view" class="staging-view-content" style="display: none;">
+                <div class="staged-icon-wrap">
+                  <div class="staged-icon-box">
+                    <!-- Lucide FileText icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+                  </div>
+                  <div class="success-badge">
+                    <!-- Lucide CheckCircle icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                  </div>
+                </div>
+
+                <h3 id="staged-file-name" class="staged-name">document.pdf</h3>
+                <div id="staged-file-details" class="staged-details">2.4 MB • 2 pages</div>
+
+                <span class="staged-action-title">SELECT AN ACTION</span>
+
+                <div class="progress-bar-container" id="processing-bar">
+                  <div class="progress-bar">
+                    <div class="progress-bar-fill"></div>
+                  </div>
+                  <span class="processing-text">PROCESSING DOCUMENT...</span>
+                </div>
+
+                <div class="action-buttons-stack">
+                  <div class="primary-action-wrap">
+                    <button id="proceed-btn" class="btn-primary" style="padding: 12px 48px; font-size: 16px; border-radius: 12px;">
+                      <!-- Lucide FileText icon -->
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+                      Edit Content
+                    </button>
+                  </div>
+                  <button id="remove-btn" class="btn-text-full">
+                    <!-- Lucide X icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                    Remove File
+                  </button>
+                </div>
+              </div>
+
+              <!-- Password Unlock View (Hidden initially) -->
+              <div id="password-view" class="password-view-content" style="display: none;">
+                <div class="lock-icon-box">
+                  <!-- Lucide Lock icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                </div>
+
+                <h3 class="staged-name password-file-name">document.pdf</h3>
+                <div class="staged-details" style="font-weight: 500;">
+                  This file is password-protected. Enter password to unlock and edit.
+                </div>
+
+                <div id="password-error" class="alert-error" style="display: none;">
+                  Incorrect password. Please try again.
+                </div>
+
+                <form id="password-form" class="password-input-group">
+                  <span class="password-label">PDF Password</span>
+                  <input id="password-input" class="password-input-field" type="password" required aria-label="PDF Password" />
+                  
+                  <button type="button" id="toggle-password-btn" class="toggle-password-btn" aria-label="toggle password visibility">
+                    <!-- Lucide Eye icon -->
+                    <svg class="eye-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0z"/><circle cx="12" cy="12" r="3"/></svg>
+                    <!-- Lucide EyeOff icon (hidden initially) -->
+                    <svg class="eye-off-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"/><path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68"/><path d="M6.61 6.61A13.52 13.52 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61"/><line x1="2" x2="22" y1="2" y2="22"/></svg>
+                  </button>
+
+                  <div class="password-btn-group" style="margin-top: 24px;">
+                    <button type="button" id="cancel-unlock-btn" class="btn-text" style="padding: 12px 24px; border-radius: 12px; font-weight: 600;">Cancel</button>
+                    <button type="submit" id="unlock-btn" class="btn-primary" disabled style="padding: 12px 24px; border-radius: 12px; font-weight: 600; font-size: 14px;">Unlock</button>
+                  </div>
+                </form>
+              </div>
+
+              <!-- Background dot pattern overlay -->
+              <div class="dots-pattern"></div>
+            </div>
+
+            <!-- How It Works Toggler -->
+            <div class="how-it-works-wrap">
+              <button id="how-it-works-toggle" class="how-it-works-toggle" aria-expanded="false" aria-controls="how-it-works-content">
+                <!-- Lucide Info icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                How local processing works
+                <!-- Lucide ChevronDown icon -->
+                <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+              </button>
+              
+              <div id="how-it-works-content" class="how-it-works-content">
+                <p>
+                  When you select a PDF, your browser reads the file directly from your disk into its private memory. Our code (running in your browser) performs all editing tasks using your computer's power. <strong>Your file data is never sent to our servers.</strong> Even if you disconnect from the internet after loading the page, the editor will continue to work.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Top Wave Transition -->
+      <div class="wave-transition top-wave">
+        <div class="wave-container">
+          <svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 24 150 28" preserveAspectRatio="none" shapeRendering="auto">
+            <defs>
+              <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+              <use href="#gentle-wave" x="48" y="0" />
+              <use href="#gentle-wave" x="48" y="3" />
+              <use href="#gentle-wave" x="48" y="5" />
+              <use href="#gentle-wave" x="48" y="7" />
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Three Steps Section -->
+      <section class="steps-section">
+        <div class="container" style="position: relative; z-index: 1;">
+          <h2 class="steps-title">Three Simple Steps</h2>
+          
+          <div class="steps-grid">
+            <!-- Connector Line -->
+            <div class="steps-line"></div>
+
+            <!-- Step 1 -->
+            <div class="step-card">
+              <div class="step-number">1</div>
+              <div>
+                <h3 class="step-card-title">Select PDF</h3>
+                <p class="step-card-desc">Choose your document from your local storage. No upload required.</p>
+              </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="step-card">
+              <div class="step-number">2</div>
+              <div>
+                <h3 class="step-card-title">Edit Locally</h3>
+                <p class="step-card-desc">Use our powerful suite of tools to make changes directly in your browser.</p>
+              </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="step-card">
+              <div class="step-number">3</div>
+              <div>
+                <h3 class="step-card-title">Download Instantly</h3>
+                <p class="step-card-desc">Save your edited file back to your device. Private and secure.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bottom Wave Transition -->
+      <div class="wave-transition bottom-wave">
+        <div class="wave-container">
+          <svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 24 150 28" preserveAspectRatio="none" shapeRendering="auto">
+            <defs>
+              <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+              <use href="#gentle-wave" x="48" y="0" />
+              <use href="#gentle-wave" x="48" y="3" />
+              <use href="#gentle-wave" x="48" y="5" />
+              <use href="#gentle-wave" x="48" y="7" />
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Tools Grid -->
+      <section class="tools-section">
+        <div class="container">
+          <div class="tools-header">
+            <h2 class="tools-section-title">Powerful Tools for Every PDF Need</h2>
+            <p class="tools-section-desc">Everything you need to manage your documents effectively.</p>
+          </div>
+
+          <div class="tools-cards-grid">
+            <!-- Edit Text -->
+            <div class="tool-card">
+              <div class="tool-card-icon-box">
+                <!-- Lucide Type icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" x2="15" y1="20" y2="20"/><line x1="12" x2="12" y1="4" y2="20"/></svg>
+              </div>
+              <h3 class="tool-card-title">Edit Text</h3>
+              <p class="tool-card-desc">Modify existing text or add new paragraphs with ease.</p>
+            </div>
+
+            <!-- Add Images -->
+            <div class="tool-card">
+              <div class="tool-card-icon-box">
+                <!-- Lucide Image icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+              </div>
+              <h3 class="tool-card-title">Add Images</h3>
+              <p class="tool-card-desc">Insert logos, photos, or diagrams into your documents.</p>
+            </div>
+
+            <!-- Annotate -->
+            <div class="tool-card">
+              <div class="tool-card-icon-box">
+                <!-- Lucide PenTool icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275Z"/><path d="m8 8 8 8"/></svg>
+              </div>
+              <h3 class="tool-card-title">Annotate PDFs</h3>
+              <p class="tool-card-desc">Highlight, underline, and draw directly on pages.</p>
+            </div>
+
+            <!-- No Limits -->
+            <div class="tool-card">
+              <div class="tool-card-icon-box">
+                <!-- Lucide Infinity icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12c-2-2.67-4-4-6-4a4 4 0 1 0 0 8c2 0 4-1.33 6-4Zm0 0c2 2.67 4 4 6 4a4 4 0 1 0 0-8c-2 0-4 1.33-6 4Z"/></svg>
+              </div>
+              <h3 class="tool-card-title">No Limits</h3>
+              <p class="tool-card-desc">Use as much as you want.</p>
+            </div>
+
+            <!-- Merge PDFs -->
+            <div class="tool-card">
+              <div class="tool-card-icon-box">
+                <!-- Lucide Merge icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h4a4 4 0 0 1 4 4v10"/><path d="M12 16a4 4 0 0 0-4-4H4"/><rect width="4" height="4" x="2" y="10" rx="1"/><rect width="4" height="4" x="18" y="18" rx="1"/></svg>
+              </div>
+              <h3 class="tool-card-title">Merge PDFs</h3>
+              <p class="tool-card-desc">Combine multiple documents into a single file.</p>
+            </div>
+
+            <!-- Split PDFs -->
+            <div class="tool-card">
+              <div class="tool-card-icon-box">
+                <!-- Lucide Scissors icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="9.8" x2="20" y1="8.2" y2="18.4"/><line x1="9.8" x2="20" y1="15.8" y2="5.6"/></svg>
+              </div>
+              <h3 class="tool-card-title">Split PDFs</h3>
+              <p class="tool-card-desc">Separate pages or extract specific sections instantly.</p>
+            </div>
+
+            <!-- Sign PDFs -->
+            <div class="tool-card">
+              <div class="tool-card-icon-box">
+                <!-- Lucide FileSignature icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 19.5c0 .8-.7 1.5-1.5 1.5H4c-.8 0-1.5-.7-1.5-1.5V4c0-.8.7-1.5 1.5-1.5h10.5L20 8v11.5Z"/><path d="M14 2.5V8h5.5"/><path d="m8 18 2-2 6-6-2-2-6 6-2 2Z"/><path d="m6 16 2 2"/></svg>
+              </div>
+              <h3 class="tool-card-title">Sign PDFs</h3>
+              <p class="tool-card-desc">Securely add signatures and fill out forms.</p>
+            </div>
+
+            <!-- Lightning Fast -->
+            <div class="tool-card active">
+              <div class="tool-card-icon-box">
+                <!-- Lucide Rocket icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.25-2.5 3.5-2.5 3.5s2.25-1 3.5-2.5"/><path d="M12 12l9-9"/><path d="M16 4l5 5"/><path d="M9 12l3 3"/><path d="M18.5 5.5A10.5 10.5 0 0 0 5 19l1.5-1.5L9 15l1.5-1.5L12 12l2.5-2.5L17 7l1.5-1.5Z"/></svg>
+              </div>
+              <h3 class="tool-card-title">Lightning Fast</h3>
+              <p class="tool-card-desc">Optimized for low memory and instant processing.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="faq-section">
+        <div class="container-md">
+          <div class="faq-header">
+            <h2 class="faq-title">Privacy & Security FAQ</h2>
+            <p class="faq-desc">Everything you need to know about how we protect your data.</p>
+          </div>
+
+          <div class="faq-list">
+            <!-- FAQ 1 -->
+            <div class="accordion-item">
+              <div class="accordion-header" role="button" aria-expanded="false" tabindex="0">
+                <div class="accordion-header-left">
+                  <span class="accordion-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 9.7a1 1 0 0 1-.68 0C7.5 20.5 4 18 4 13V6a1 1 0 0 1 .76-.97l8.24-2a1 1 0 0 1 .48 0l8.24 2A1 1 0 0 1 20 6z"/></svg>
+                  </span>
+                  <span class="accordion-question">How does local processing work?</span>
+                </div>
+                <span class="accordion-chevron">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                </span>
+              </div>
+              <div class="accordion-details">
+                <div class="accordion-answer">
+                  Our editor uses WebAssembly and modern browser APIs to process your PDFs directly on your device. When you open a file, it's loaded into your browser's memory, not our servers. All edits, annotations, and signing happen locally.
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="accordion-item">
+              <div class="accordion-header" role="button" aria-expanded="false" tabindex="0">
+                <div class="accordion-header-left">
+                  <span class="accordion-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                  </span>
+                  <span class="accordion-question">Are my files stored anywhere?</span>
+                </div>
+                <span class="accordion-chevron">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                </span>
+              </div>
+              <div class="accordion-details">
+                <div class="accordion-answer">
+                  No. Your files are never uploaded to any cloud storage or server. They exist only in your browser's temporary memory while the tab is open. Once you close the tab or refresh the page, the data is cleared from memory.
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="accordion-item">
+              <div class="accordion-header" role="button" aria-expanded="false" tabindex="0">
+                <div class="accordion-header-left">
+                  <span class="accordion-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m17.94 17.94-2.06-2.06M15 12a3 3 0 1 1-3-3m0-6c-7 0-10 7-10 7a13.16 13.16 0 0 0 1.67 2.68M6.61 6.61A13.52 13.52 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61M2 2l20 20"/></svg>
+                  </span>
+                  <span class="accordion-question">Do you track what's inside my documents?</span>
+                </div>
+                <span class="accordion-chevron">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                </span>
+              </div>
+              <div class="accordion-details">
+                <div class="accordion-answer">
+                  Absolutely not. Since the processing is 100% local, we have no technical way to see your content, filenames, or metadata. We don't even log that a specific file was opened.
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="accordion-item">
+              <div class="accordion-header" role="button" aria-expanded="false" tabindex="0">
+                <div class="accordion-header-left">
+                  <span class="accordion-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 9.7a1 1 0 0 1-.68 0C7.5 20.5 4 18 4 13V6a1 1 0 0 1 .76-.97l8.24-2a1 1 0 0 1 .48 0l8.24 2A1 1 0 0 1 20 6z"/></svg>
+                  </span>
+                  <span class="accordion-question">Can I use this tool offline?</span>
+                </div>
+                <span class="accordion-chevron">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                </span>
+              </div>
+              <div class="accordion-details">
+                <div class="accordion-answer">
+                  Yes! Once the page is loaded, you can disconnect from the internet and continue editing your PDFs. The core logic is bundled within the application and runs entirely in your browser.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-content">
+        <div class="footer-left">
+          <a href="./index.html" class="logo-wrap">
+            <span class="logo-text">Patch<span class="logo-highlight">My</span>PDF.com</span>
+          </a>
+          <p class="footer-copy">© 2026 PatchMyPDF.com. Secure, browser-based PDF processing.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Landing page script entry -->
   </body>
 </html>
