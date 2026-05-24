@@ -6,9 +6,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="canonical" href="https://patchmypdf.com" />
     <title>PatchMyPdf.com - Secure Browser PDF Editor</title>
+    <meta name="description" content="Edit, sign, and annotate PDFs securely in your browser. Your files never leave your device, ensuring 100% privacy. Free to use with no sign-up required." />
+    <meta name="keywords" content="pdf editor, edit pdf online, secure pdf editor, browser pdf editor, sign pdf, annotate pdf, fill pdf form, local pdf processing, private pdf editor, free pdf tools" />
+    <meta name="author" content="PatchMyPDF" />
+    <meta name="theme-color" content="#0932a1" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://patchmypdf.com" />
+    <meta property="og:title" content="PatchMyPdf.com - Secure Browser PDF Editor" />
+    <meta property="og:description" content="Edit, sign, and annotate PDFs securely in your browser. Your files never leave your device, ensuring 100% privacy. Free to use with no sign-up required." />
+    <meta property="og:image" content="https://patchmypdf.com/og-image.png" />
+    <meta property="og:site_name" content="PatchMyPDF" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://patchmypdf.com" />
+    <meta name="twitter:title" content="PatchMyPdf.com - Secure Browser PDF Editor" />
+    <meta name="twitter:description" content="Edit, sign, and annotate PDFs securely in your browser. Your files never leave your device, ensuring 100% privacy. Free to use with no sign-up required." />
+    <meta name="twitter:image" content="https://patchmypdf.com/og-image.png" />
+
+    <!-- Web App Manifest & Apple Touch -->
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "@id": "https://patchmypdf.com/#webapp",
+          "url": "https://patchmypdf.com",
+          "name": "PatchMyPDF",
+          "applicationCategory": "BusinessApplication",
+          "operatingSystem": "All",
+          "browserRequirements": "Requires JavaScript. Requires HTML5.",
+          "softwareVersion": "1.0",
+          "offers": {
+            "@type": "Offer",
+            "price": "0.00",
+            "priceCurrency": "USD"
+          },
+          "description": "A privacy-first, secure, browser-based PDF editor. All processing happens locally on the user's device via WebAssembly.",
+          "featureList": [
+            "Secure browser-based PDF editing",
+            "Local rendering and processing",
+            "Text overlay editing and drawing tools",
+            "Image insertion and digital signatures",
+            "Page deletion, rotation, and merging"
+          ],
+          "screenshot": "https://patchmypdf.com/og-image.png",
+          "author": {
+            "@type": "Organization",
+            "name": "PatchMyPDF",
+            "url": "https://patchmypdf.com"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://patchmypdf.com/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How does local processing work?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Our editor uses WebAssembly and modern browser APIs to process your PDFs directly on your device. When you open a file, it's loaded into your browser's memory, not our servers. All edits, annotations, and signing happen locally."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are my files stored anywhere?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Your files are never uploaded to any cloud storage or server. They exist only in your browser's temporary memory while the tab is open. Once you close the tab or refresh the page, the data is cleared from memory."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you track what's inside my documents?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Absolutely not. Since the processing is 100% local, we have no technical way to see your content, filenames, or metadata. We don't even log that a specific file was opened."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I use this tool offline?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! Once the page is loaded, you can disconnect from the internet and continue editing your PDFs. The core logic is bundled within the application and runs entirely in your browser."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
     <script type="module" crossorigin src="/assets/main-DXMFSGQZ.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-Cf3xff8G.js">
     <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-CpWojdLp.js">

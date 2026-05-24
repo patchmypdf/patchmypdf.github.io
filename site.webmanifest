@@ -1,0 +1,16 @@
+{
+  "name": "PatchMyPDF.com - Secure Browser PDF Editor",
+  "short_name": "PatchMyPDF",
+  "description": "Edit and sign PDFs securely directly in your browser. Your files never leave your device.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#0932a1",
+  "background_color": "#f7f9fb",
+  "display": "standalone",
+  "start_url": "/index.html"
+}
