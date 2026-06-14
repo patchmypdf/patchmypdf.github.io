@@ -1,0 +1,1 @@
+import{t as e}from"./analytics-0Fs-Izoq.js";/* empty css                */e();var t=document.getElementById(`missing-path`);t&&(t.textContent=`${window.location.pathname}${window.location.search}${window.location.hash}`||`/`);

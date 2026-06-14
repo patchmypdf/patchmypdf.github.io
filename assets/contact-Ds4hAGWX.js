@@ -1,0 +1,1 @@
+import{t as e}from"./analytics-0Fs-Izoq.js";/* empty css                */e();
